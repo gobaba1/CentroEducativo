@@ -1,0 +1,26 @@
+<%-- 
+    Document   : index
+    Created on : 01/04/2019, 11:42:33 AM
+    Author     : c19255
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <%@include file="WEB-INF/jspf/cstyles.jspf" %>
+          <title>JSP Page</title>
+    </head>
+    <body>
+        
+        <%@include file="WEB-INF/jspf/cheader.jspf" %>
+        <%-- <%@include file="WEB-INF/jspf/cnav.jspf" %> --%>
+        <%@include file="WEB-INF/jspf/cnavbootstrap.jspf" %>
+        <section>
+            
+        </section>
+         <%@include file="WEB-INF/jspf/cfooter.jspf" %>
+        <%@include file="WEB-INF/jspf/csripts.jspf" %>
+    </body>
+</html>
