@@ -1,9 +1,15 @@
 <nav>
     <ul>
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Nosotros</a></li>
-        <li><a href="">Servicios</a></li>
-        <li><a href="">Productos</a></li>
-        <li><a href="">Contactenos</a></li>
+        <li><a href="#"><span class="primero"><i class="icon fas fa-home"></i></span>Inicio</a></li>
+        <li><a href="#"><span class="segundo"><i class="icon fas fa-building"></i></span>Infraestructura</a></li>
+        <li><a href="#"><span class="tercero"><i class="icon fas fa-users"></i></span>Equipo</a></li>
+        <li><a href="#"><span class="cuarto"><i class="icon fas fa-pencil-ruler"></i></span>Admisión</a></li>
+        <li><a href="#"><span class="quinto"><i class="icon fas fa-sign-in-alt"></i></span>Iniciar sesion</a>
+            <ul>
+                <li><a href="#">Estudiantes</a></li>
+                <li><a href="#">Profesores</a></li>
+                <li><a href="#">Administracion</a></li>    
+            </ul> 
+       </li>
     </ul>
 </nav>

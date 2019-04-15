@@ -10,15 +10,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <%@include file="WEB-INF/jspf/cstyles.jspf" %>
-        <title>JSP Page</title>
+        <title>Colegio Makarenko</title>
     </head>
     <body>
-        <div CLASS="container-fluid">
+        <div class="container-fluid">
             <%@include file="WEB-INF/jspf/cheader.jspf" %>
-            <%-- <%@include file="WEB-INF/jspf/cnav.jspf" %> --%>
-            <%@include file="WEB-INF/jspf/cnavbootstrap.jspf" %>
+            <%@include file="WEB-INF/jspf/cnav.jspf" %> 
+            
             <section>
-                <%-- Carrousel--%>
+                
+                <%-- Carrousel --%>
                 <div class="bd-example">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -59,6 +60,7 @@
                         </a>
                     </div>
                 </div>
+               
 
             </section>
             <%@include file="WEB-INF/jspf/cfooter.jspf" %>

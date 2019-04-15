@@ -10,8 +10,7 @@
     <body>
 
         <%@include file="WEB-INF/jspf/cheader.jspf" %>
-        <%-- <%@include file="WEB-INF/jspf/cnav.jspf" %> --%>
-        <%@include file="WEB-INF/jspf/cnavbootstrap.jspf" %>
+        <%@include file="WEB-INF/jspf/cnav.jspf"%>
         <section>
             <div class="container-fluid">
                 <div class="row">
